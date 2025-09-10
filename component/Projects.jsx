@@ -7,13 +7,13 @@ const projects = [
     title: 'Tesla Clone',
     description: 'A full clone of Tesla website using Next.js, Tailwind CSS, and Framer Motion.',
     image: 'https://images.unsplash.com/photo-1602524811124-5e63d6c9e3d1',
-    link: '#'
+    link: 'https://vercel.com/prayag0222s-projects/tesla-clone/7u7aEZpeCktFfZvg9Nnc6GTqAwDN'
   },
   {
     title: 'EV Showroom',
     description: 'My own EV showroom website built with premium design and responsive layout.',
     image: 'https://images.unsplash.com/photo-1616628180693-cf63f7f8f84f',
-    link: '#'
+    link: 'https://dynamo-4s2xoitn0-prayag0222s-projects.vercel.app'
   }
 ];
 
