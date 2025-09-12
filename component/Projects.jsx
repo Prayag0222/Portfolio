@@ -6,19 +6,20 @@ import React from 'react';
 // Data is moved to a constant. For a larger app, this could come from a CMS or API.
 // Added a unique `id` for each project, which is a best practice for list keys.
 const PROJECTS_DATA = [
-  {
-    id: 'tesla-clone',
-    title: 'Tesla Website Clone',
-    description: 'A feature-rich clone of the official Tesla website using Next.js, Tailwind CSS, and Framer Motion for smooth animations.',
-    image: 'https://images.unsplash.com/photo-1617704548623-340376564e68?q=80&w=2070&auto=format&fit=crop',
-    link: 'https://tesla-clone-lyart-delta.vercel.app/'
-  },
+ 
   {
     id: 'ev-showroom',
     title: 'EV Showroom',
     description: 'A bespoke, premium EV showroom website designed with a focus on responsive layout and an elegant user experience.',
     image: 'https://images.unsplash.com/photo-1623079399942-368de709ea32?w=600&auto=format&fit=crop&q=60',
     link: 'https://dynamo-ten.vercel.app/'
+  },
+   {
+    id: 'tesla-clone',
+    title: 'Tesla Website Clone',
+    description: 'A feature-rich clone of the official Tesla website using Next.js, Tailwind CSS, and Framer Motion for smooth animations.',
+    image: 'https://images.unsplash.com/photo-1617704548623-340376564e68?q=80&w=2070&auto=format&fit=crop',
+    link: 'https://tesla-clone-lyart-delta.vercel.app/'
   }
 ];
 
