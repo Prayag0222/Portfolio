@@ -179,6 +179,10 @@ export default function ServicesSection() {
                 <div className="font-medium">Do you take advance?</div>
                 <div className="text-gray-400">Yes — typically ₹200 advance for one-page sites; rest on delivery.</div>
               </div>
+              <div>
+                <div className="font-medium ">How to pay?</div>
+                <div className="text-gray-400">Pay via GPay/PhonePe – ₹200 advance, rest on delivery.</div>
+              </div>
 
               <div>
                 <div className="font-medium">Do you provide hosting?</div>
@@ -207,6 +211,16 @@ export default function ServicesSection() {
             className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-md text-sm font-semibold hover:scale-[1.02]"
           >
             Order Now — Get Online in 24–48 hours
+          </a>
+        </div>
+        <div className="mt-10 text-center">
+          <a
+            href={waLinkFor("One-Page Business Website")}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-md text-sm font-semibold hover:scale-[1.02]"
+          >
+           Limited: One-page site ₹500 — only for first 3 clients this week.
           </a>
         </div>
       </div>

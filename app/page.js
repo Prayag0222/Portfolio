@@ -8,6 +8,7 @@ import Skills from "../component/Skills";
 import Contact from "../component/Contact";
 import Navbar from "../component/Navbar";
 import LenisWrapper from "../component/LenisWrapper";
+import OngoingProjectShowcase from "../component/Ongoing-project";
 
 export default function Home() {
   return (
@@ -26,6 +27,9 @@ export default function Home() {
           </section>
           <section id="projects">
           <Projects/>
+          </section>
+          <section id="ongoing-projects">
+            <OngoingProjectShowcase />
           </section>
           <section id="about">
             <About />

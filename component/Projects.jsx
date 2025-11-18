@@ -103,7 +103,7 @@ function ProjectCard({ project, index, onOpen }) {
 
   return (
     <motion.div
-      className="group flex flex-col bg-gray-800/40 rounded-2xl overflow-hidden border border-white/10 shadow-md hover:shadow-purple-500/20 hover:shadow-2xl transition-all duration-300"
+      className="group flex flex-col bg-gray-800/40 rounded-2xl overflow-hidden border border-white/10 shadow-md hover:shadow-purple-500/20 hover:shadow-2xl transition-all duration-300 "
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
@@ -185,7 +185,7 @@ export default function Projects() {
         </motion.h2>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
+        <div className="flex flex-col md:flex-row md:justify-around md:items-stretch gap-6">
           {PROJECTS_DATA.map((project, index) => (
             <ProjectCard
               key={project.id}
