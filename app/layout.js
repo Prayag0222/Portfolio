@@ -11,47 +11,39 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// app/layout.js
 export const metadata = {
-  title: "Prayag • Full-Stack Developer & Web Designer",
-  description: "Freelancer Web Developer building modern websites, landing pages, one-page business sites, and fast React/Next.js UIs. Available for projects.",
-  keywords: [
-    "web developer",
-    "freelancer",
-    "next.js developer",
-    "react developer",
-    "landing page developer",
-    "ev showroom website",
-    "website for shop",
-    "portfolio developer",
-    "India freelancer",
-    "Nasrullaganj web dev",
-  ],
+  title: "Prayag • Web Developer",
+  description:
+    "I build fast, mobile-first websites & landing pages for small shops and startups. Next.js • Tailwind • Fast delivery.",
+  applicationName: "Prayag — Portfolio",
   authors: [{ name: "Prayag" }],
-  creator: "Prayag",
-  publisher: "Prayag",
-  metadataBase: new URL("https://your-domain.com"), // your deployed portfolio link
+  themeColor: "#0f172a",
   openGraph: {
-    title: "Prayag • Web Developer & Designer",
-    description: "I build fast, modern websites using React, Next.js & Tailwind.",
+    type: "website",
+    title: "Prayag • Web Developer",
+    description:
+      "I build fast, mobile-first websites & landing pages for small shops and startups. Next.js • Tailwind • Fast delivery.",
     url: "https://portfolio-qg12.vercel.app/",
-    siteName: "Prayag's Portfolio",
+    siteName: "Prayag — Portfolio",
     images: [
       {
-        url: "https://your-domain.com/og-image.png",
+        url: "https://portfolio-qg12.vercel.app/og-image.png",
         width: 1200,
         height: 630,
+        alt: "Prayag Portfolio Preview",
       },
     ],
-    locale: "en_IN",
-    type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Prayag • Web Developer",
-    description: "Freelancer Web Developer building modern websites.",
-    images: ["https://your-domain.com/og-image.png"],
+    description:
+      "I build fast, mobile-first websites & landing pages for small shops and startups.",
+    images: ["https://portfolio-qg12.vercel.app/og-image.png"],
   },
 };
+
 
 
 export default function RootLayout({ children }) {
