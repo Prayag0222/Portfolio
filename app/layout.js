@@ -18,7 +18,6 @@ export const metadata = {
     "I build fast, mobile-first websites & landing pages for small shops and startups. Next.js • Tailwind • Fast delivery.",
   applicationName: "Prayag — Portfolio",
   authors: [{ name: "Prayag" }],
-  themeColor: "#0f172a",
   openGraph: {
     type: "website",
     title: "Prayag • Web Developer",
