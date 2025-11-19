@@ -132,7 +132,7 @@ function ProjectCard({ project, index, onOpen }) {
             target="_blank"
             className="px-3 py-2 bg-purple-600 rounded-md text-white text-sm hover:bg-purple-700"
           >
-            Demo
+            Live Demo
           </a>
 
           <a

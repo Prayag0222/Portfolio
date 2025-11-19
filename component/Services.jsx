@@ -22,6 +22,7 @@ const PACKAGES = [
     title: "One-Page Business Website",
     price: 800,
     delivery: "24–48 hours",
+    benefits:["One-Page — Ready for WhatsApp orders & maps — 24–48 hr delivery."],
     bullets: [
       "Mobile-first responsive design",
       "Hero, About, Services, Gallery, Contact + Google Maps",
@@ -105,7 +106,7 @@ export default function ServicesSection() {
                 <PriceBadge price={pkg.price} />
               </div>
 
-              <p className="mt-4 text-gray-300 text-sm">{pkg.bullets[0]} • {pkg.bullets[1]}</p>
+              <p className="mt-4 text-gray-300 text-sm">{pkg.benefits} </p>
 
               <ul className="mt-4 space-y-2 text-sm text-gray-300 flex-1">
                 {pkg.bullets.map((b, i) => (
@@ -115,6 +116,7 @@ export default function ServicesSection() {
                   </li>
                 ))}
               </ul>
+              <p className="mt-4 text-gray-300 text-sm">Keep the limited ₹500 first-3 clients promo </p>
 
               <div className="mt-6 flex gap-3 items-center">
                 <a

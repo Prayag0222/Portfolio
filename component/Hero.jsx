@@ -7,10 +7,10 @@ import { motion } from 'framer-motion';
 const WA_LINK = 'https://wa.me/918989819484?text=Hi%20Prayag%2C%20I%20need%20a%20one-page%20website.';
 
 function Hero() {
-  const titleText = "Hi, I'm Prayag.";
-  const headingText = 'I build fast, modern websites & landing pages for businesses.';
+  const titleText = "Hi — I’m Prayag.";
+  const headingText = 'I build fast, mobile-first websites that get local shops online & accepting orders in 48 hours.';
   const subHeadingText =
-    'I help small shops, creators, and startups go online with clean, responsive websites — delivered within 24–48 hours.';
+    'Fast delivery • Affordable • SEO-ready • WhatsApp ordering integrated';
 
   // split into words for calmer hover effect
   const headingWords = headingText.split(' ');
