@@ -10,13 +10,14 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 // ------------------------------------------------------------------
 
  import dynamic from 'next/dynamic';
+import LiquidEther from './BG/LiquidEther';
 
-const DarkVeil = dynamic(() => import('./BG/DarkVeil'), {
-  ssr: false,
-  loading: () => (
-    <div className="absolute inset-0 bg-gradient-to-b from-cyan-900/30 via-transparent to-purple-900/20" />
-  ),
-});
+// const DarkVeil = dynamic(() => import('./BG/DarkVeil'), {
+//   ssr: false,
+//   loading: () => (
+//     <div className="absolute inset-0 bg-gradient-to-b from-cyan-900/30 via-transparent to-purple-900/20" />
+//   ),
+// });
 
 
 // --- PREVIEW MOCKS (DELETE THIS SECTION IN YOUR APP) ---
@@ -65,12 +66,7 @@ export default function Hero() {
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
         <div className="absolute inset-0">
           {/* In production, this uses your dynamic import */}
-          <DarkVeil
-            noiseIntensity={0.055}
-            scanlineIntensity={0}
-            warpAmount={0.08}
-            resolutionScale={1.1}
-          />
+      <LiquidEther/>
           <div className="absolute inset-0 pointer-events-none bg-gradient-to-b from-black/55 to-transparent z-10" />
         </div>
       </div>
