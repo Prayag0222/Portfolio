@@ -66,7 +66,8 @@ export default function Hero() {
         <div className="absolute inset-0">
           {/* In production, this uses your dynamic import */}
       <LightRays/>
-          <div className="absolute inset-0 pointer-events-none bg-gradient-to-b from-black/55 to-transparent z-10" />
+
+          <div className="absolute inset-0 pointer-events-none  bg-black/40   z-10" />
         </div>
       </div>
     
