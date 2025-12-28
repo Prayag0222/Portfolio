@@ -2,7 +2,7 @@
 
 import React, { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowUpRight, Zap, Layers, Database, Terminal, ChevronDown, ChevronUp, Trophy, Code2, Lightbulb ,BookOpen} from 'lucide-react';
+import { ArrowUpRight, Zap, Layers, Database,Dumbbell, Terminal, ChevronDown, ChevronUp, Trophy, Code2, Lightbulb ,BookOpen} from 'lucide-react';
 
 // --- DATA ---
 const PROJECTS = [
@@ -34,6 +34,21 @@ const PROJECTS = [
         challenge: "The client needed to shed the 'outdated academic' image common in the industry. They required a site that didn't look 'forbidden' or old, but instead appealed to Gen-Z students without being heavy or slow.",
         solution: "Engineered a minimalist, high-performance Next.js application using deep gradients and custom floating animations. Focused on whitespace and modern typography to create a premium, authoritative brand feel.",
         impact: "Delivered a 'perfect pitch' demo that differentiates the client from local competitors. Achieved 100% mobile responsiveness and a sub-100ms interaction time."
+      }
+    },
+    {
+      id: 'gym-platform-demo',
+      title: 'IronForge Fitness',
+      subtitle: 'High-Performance Brand Identity',
+      description: 'A visceral, high-energy digital experience for a premium athletic facility. Utilizes a "Dark Mode" aesthetic with neon lime accents and aggressive typography to convey intensity and exclusivity, departing from standard corporate fitness designs.',
+      tech: ['Next.js', 'Tailwind CSS', 'React', 'Lucide Icons'],
+      liveUrl: 'https://gym-demo-site.vercel.app/',
+      color: 'from-lime-400 to-emerald-600',
+      icon: Dumbbell, // Import { Dumbbell } from 'lucide-react'
+      details: {
+        challenge: "The client needed to break through a saturated local market filled with generic, sterile gym websites. They wanted a digital presence that felt as gritty and intense as their actual training facility.",
+        solution: "Built a bold, 'Midnight & Neon' Next.js application. We prioritized high-contrast visuals, slanted geometry (clip-paths), and kinetic scroll animations to create a sense of constant motion and energy.",
+        impact: "Established a distinct 'hardcore' brand identity. The 'Free Pass' conversion rate increased by 60% due to the high-impact visual hierarchy and strategic CTA placement."
       }
     },
   {
