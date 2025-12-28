@@ -3,6 +3,7 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import LightRays from './BG/LightRays';
+import ChatWidget from './ChatWidget';
 
 // ------------------------------------------------------------------
 // ⚠️ FOR PREVIEW ONLY: I have commented out your real imports below 
@@ -130,6 +131,11 @@ export default function Hero() {
 
       {/* Soft bottom vignette */}
       <div className="absolute bottom-0 left-0 right-0 h-40 pointer-events-none bg-gradient-to-t from-black/30 to-transparent z-10" />
+      {/* Chat BOt widget */}
+
+          <div>
+          <ChatWidget/>
+          </div>
     </section>
   );
 }

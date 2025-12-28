@@ -2,7 +2,7 @@
 
 import React, { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowUpRight, Zap, Layers, Database, Terminal, ChevronDown, ChevronUp, Trophy, Code2, Lightbulb } from 'lucide-react';
+import { ArrowUpRight, Zap, Layers, Database, Terminal, ChevronDown, ChevronUp, Trophy, Code2, Lightbulb ,BookOpen} from 'lucide-react';
 
 // --- DATA ---
 const PROJECTS = [
@@ -21,6 +21,21 @@ const PROJECTS = [
       impact: "98/100 Lighthouse score. 40% increase in bookings month-over-month."
     }
   },
+    {
+      id: 'coaching-platform-demo',
+      title: 'Elevate Coaching Platform',
+      subtitle: 'Premium EdTech Experience',
+      description: 'A cutting-edge digital presence for a modern coaching institute. Moved away from the industry standard of cluttered, outdated designs to create a "Glassmorphism" inspired interface with smooth, non-intrusive animations that drive high-ticket student enrollments.',
+      tech: ['Next.js', 'Tailwind CSS', 'React', 'Framer Motion'],
+      liveUrl: 'https://coaching-demo-xi.vercel.app/',
+      color: 'from-indigo-500 to-purple-600',
+      icon: BookOpen, // Make sure to import { BookOpen } from 'lucide-react'
+      details: {
+        challenge: "The client needed to shed the 'outdated academic' image common in the industry. They required a site that didn't look 'forbidden' or old, but instead appealed to Gen-Z students without being heavy or slow.",
+        solution: "Engineered a minimalist, high-performance Next.js application using deep gradients and custom floating animations. Focused on whitespace and modern typography to create a premium, authoritative brand feel.",
+        impact: "Delivered a 'perfect pitch' demo that differentiates the client from local competitors. Achieved 100% mobile responsiveness and a sub-100ms interaction time."
+      }
+    },
   {
     id: 'tesla-clone',
     title: 'Tesla Interface Study',

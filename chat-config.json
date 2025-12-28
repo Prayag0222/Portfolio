@@ -1,0 +1,17 @@
+{
+    "businessName": "Prayag Portfolio",
+    "greeting": "Hey! I'm the portfolio assistant — ask me anything about my work, contact info or projects.",
+    "phone": "+91-8989819484",
+    "email": "raj.prayag222@gmail.com",
+    "address": "Bhopal, Madhya Pradesh, India",
+    "siteLinks": [
+      { "label": "Portfolio", "url": "https://portfolio-qg12.vercel.app/" },
+      { "label": "GitHub", "url": "https://github.com/Prayag0222" },
+      { "label": "LinkedIn", "url": "https://linkedin.com/in/yourprofile" }
+    ],
+    "theme": {
+      "primary": "bg-indigo-600",
+      "accent": "bg-white"
+    }
+  }
+  
