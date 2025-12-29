@@ -57,7 +57,7 @@ const PROJECTS = [
       subtitle: 'Universal Healthcare Template',
       description: 'A serene, trust-building digital interface designed for versatility across medical niches (Dental, General Practice, Dermatology). Features a calming "Teal & Soft White" palette that prioritizes accessibility and patient comfort over visual noise.',
       tech: ['Next.js', 'Tailwind CSS', 'React', 'Lucide Icons'],
-      liveUrl: 'https://clinic-demo-site.vercel.app/',
+      liveUrl: 'https://clininc-demo.vercel.app/',
       color: 'from-teal-500 to-cyan-600',
       icon: Activity, // Import { Activity } from 'lucide-react'
       details: {
