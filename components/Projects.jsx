@@ -2,7 +2,7 @@
 
 import React, { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowUpRight, Zap, Layers, Database,Dumbbell, Terminal, ChevronDown, ChevronUp, Trophy, Code2, Lightbulb ,BookOpen} from 'lucide-react';
+import { ArrowUpRight, Zap, Layers, Database,Dumbbell,Activity, Terminal, ChevronDown, ChevronUp, Trophy, Code2, Lightbulb ,BookOpen} from 'lucide-react';
 
 // --- DATA ---
 const PROJECTS = [
