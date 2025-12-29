@@ -51,6 +51,21 @@ const PROJECTS = [
         impact: "Established a distinct 'hardcore' brand identity. The 'Free Pass' conversion rate increased by 60% due to the high-impact visual hierarchy and strategic CTA placement."
       }
     },
+    {
+      id: 'clinic-platform-demo',
+      title: 'NovaHealth Clinic',
+      subtitle: 'Universal Healthcare Template',
+      description: 'A serene, trust-building digital interface designed for versatility across medical niches (Dental, General Practice, Dermatology). Features a calming "Teal & Soft White" palette that prioritizes accessibility and patient comfort over visual noise.',
+      tech: ['Next.js', 'Tailwind CSS', 'React', 'Lucide Icons'],
+      liveUrl: 'https://clinic-demo-site.vercel.app/',
+      color: 'from-teal-500 to-cyan-600',
+      icon: Activity, // Import { Activity } from 'lucide-react'
+      details: {
+        challenge: "Medical clients often struggle with websites that feel too clinical and cold, or conversely, too cluttered and unprofessional. The goal was to create a 'warm professional' aesthetic that works universally.",
+        solution: "Developed a modular Next.js architecture where service cards and hero imagery can be swapped instantly to pivot the niche. Used soft gradients and rounded UI elements to reduce patient anxiety.",
+        impact: "Serves as a high-converting 'master template' for the agency. Reduced development time for new medical clients by 60% while maintaining a custom, premium look for each deployment."
+      }
+    },
   {
     id: 'tesla-clone',
     title: 'Tesla Interface Study',
